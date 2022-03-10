@@ -1,0 +1,107 @@
+
+body{
+    background-image:url(../ejercicios_clase/imagenes/fondo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+div{
+    background-color:aliceblue;
+    margin:100px;
+}
+
+li{
+    margin: 50px;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: red;  
+}
+
+p{
+    text-align: justify;
+    margin:100px;  
+}
+
+.logo1{
+    width:300px;
+    display:block;
+    margin: 0 0 0 100px;
+    padding:10px;
+    float: right;
+}
+
+.imagen2,.imagen3,.imagen4{
+    width:300px;
+    display:block;
+    margin:0 0 0 300px;
+    padding:10px;
+    float:  left;
+    
+}
+.camisa1,.camisa2,.camisa3,.camisa4,.camisa5,.camisa6,.camisa7,.camisa8{
+    width:500px ;
+    height:500px;
+    padding:10px;
+}
+.borde{
+    border:5px solid;
+    color:red;
+}
+.borde2{
+    border:solid;
+    color:red; 
+    margin:0px 100px;
+}
+
+.jeans1,.jeans2,.jeans3,.jeans4,.jeans5{
+    width:400px ;
+    height:400px;
+    padding:10px;
+    margin:60px 60px 0 120px; /*margen esterno*/
+}
+.pie{
+    margin:0;
+}
+/* para crear botones*/
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 15px 10px ;
+    margin: 0/*arriba*/ 40px/*->*/ 0/*abajo*/ 0/*<-*/;
+    border: 1px solid red;
+    background:blanchedalmond ;
+    color: rgb(236, 15, 15);
+    border-radius: 10px;/*redondear bordes*/
+}
+
+nav ul li a:hover{
+    background: green; /*margen interno*/
+    color: aliceblue;
+}
+/*----------------------------*/
+
+/*elementos flotantes*/
+ul{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+.logito{
+    float:right ;
+    width: 200px;
+    display:block;
+    margin: 120px 300px 0 0;
+}
+
+
+
+
+
+
